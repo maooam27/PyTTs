@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>PyTTs</title>
+</head>
+<body>
+    <h1>Python TTs downloader</h1>
+    <p>Start by typing a phrase.</p>
+    <form action="{{url_for('download_output')}}" method="POST">
+        <label for="phrase">your phrase</label><br>
+        <input type="text" id="phrase" name="phrase" placeholder="Phrase"><br>
+    </form>
+    <br><button id="goBtn">Go</button><button id="downloadBtn">Download</button>
+</body>
+</html>
