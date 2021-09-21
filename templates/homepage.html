@@ -10,7 +10,10 @@
     <form action="{{url_for('download_output')}}" method="POST">
         <label for="phrase">your phrase</label><br>
         <input type="text" id="phrase" name="phrase" placeholder="Phrase"><br>
+        <hr>
+        <div>
+            <input type="submit" name="submitButton" value="Submit">
+        </div>
     </form>
-    <br><button id="goBtn">Go</button><button id="downloadBtn">Download</button>
 </body>
 </html>
